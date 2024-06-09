@@ -1,0 +1,280 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+html{
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+   }
+
+   body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+   }
+
+   .full-height{
+    height: 100vh;
+   }
+   
+   .full-center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   }
+
+   .position-ref{
+    position: relative; 
+   }
+
+   .top-right{
+    position: absolute;
+    right: 10px;
+    top: 18px;
+   }
+
+   .content{
+    text-align: center;
+   }
+
+   .links a {
+    color: #b7c5cc;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+   }
+
+   .m-b.md {
+    margin-bottom: 30px;
+   }
+
+   footer{
+    background: #eae8e5;
+    padding: 20px;
+    text-align: center;
+    bottom:0;
+   }
+
+   .title{
+    font-size: 50px;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    padding: 12px 0;
+    color: #ebe7ef;
+    text-align: center;
+   }
+
+
+.landingcard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 2px 16px;
+    width: 500px;
+    height: 450px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.homebutton {
+    background-color: #cb1c8d; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 120px;
+    height: 60px;
+    left: 100px;
+}
+
+.button1 {
+    background-color: #cb1c8d; 
+    color: black; 
+    border: 2px solid #cb1c8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.button1:hover {
+    background-color: #bd600a;
+    color: white;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ed8a39;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidebar .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.sidebar .nav-link:hover {
+    color: #7a4005;
+}
+
+.tablecard{
+    background-color:#febd72; /* Custom color */
+    color: black; /* Ensure text is readable */
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.custom-table{
+    width: 800px;
+    height: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.deleteButton{
+    color: red;
+    background-color: transparent; /* Make the background transparent */
+    border: none; /* Remove the border */
+    outline: none; /* Remove the outline */
+    cursor: pointer; /* Change the cursor to pointer when hovering over the button */
+    font-size: inherit; /* Ensure the font size is inherited from the parent element */
+    padding: 20; /* Remove any padding */
+}
+
+.editButton{
+    text-decoration: none; /* Remove the underline */
+    color: black; /* Set the text color */
+    cursor: pointer; /* Change the cursor to pointer when hovering over the link */
+    font-size: inherit; 
+}
+
+.company-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px; /* Change this value to adjust the curvature */
+    margin-right: 10px;
+}
+
+.columntable{
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase; 
+    text-decoration-color: #636b6f;
+    font-size: 12px;
+}
+
+.createcontainer {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 800px;
+    margin-left: 300px;
+}
+
+.createcard{
+    text-decoration-color: #636b6f;
+    font-size: 12px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="url"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group input[type="file"] {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: calc(100% - 10px);
+}
+
+.save-button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none; 
+}
+
+.save-button:hover {
+    background-color: #ff4c4c;
+}
+
+.cardbody{
+        background-color: #f0e6e6;
+        padding: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin: -5px -20px 20px -20px;
+}
+
+.cardheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoImage {
+    width: 200px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+
