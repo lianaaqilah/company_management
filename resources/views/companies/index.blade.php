@@ -47,10 +47,10 @@
 <script>
     $(document).ready(function() {
         $('#companiesTable').DataTable({
-                "pageLength": 5, // Show only five records per page
-                "paging": true, // Enable pagination
-                "info": false, // Disable the info text
-                "searching": false // Disable the search bar
+                "pageLength": 5, 
+                "paging": true, 
+                "info": false, 
+                "searching": false
             });
     });
 </script>

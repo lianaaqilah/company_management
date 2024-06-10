@@ -7,13 +7,13 @@ Route::get('/', function () {
     return redirect()->route('login');
 });
 
-//login ada background
+
 Auth::routes();
 
-//ni ada sidebar and tajuk letak mana yg berkenaan
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-//tambah sidebar cantik 
+
 Route::get('/companies', [CompanyController::class, 'index'])->name('companies.index');
 Route::get('/companies/create', [CompanyController::class, 'create'])->name('companies.create');
 Route::post('/companies', [CompanyController::class, 'store'])->name('companies.store');

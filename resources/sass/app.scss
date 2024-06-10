@@ -147,8 +147,8 @@ html{
 }
 
 .tablecard{
-    background-color:#febd72; /* Custom color */
-    color: black; /* Ensure text is readable */
+    background-color:#febd72;
+    color: black; 
     padding: 1rem;
     margin-bottom: 10px;
 }
@@ -170,25 +170,25 @@ html{
 
 .deleteButton{
     color: red;
-    background-color: transparent; /* Make the background transparent */
-    border: none; /* Remove the border */
-    outline: none; /* Remove the outline */
-    cursor: pointer; /* Change the cursor to pointer when hovering over the button */
-    font-size: inherit; /* Ensure the font size is inherited from the parent element */
-    padding: 20; /* Remove any padding */
+    background-color: transparent;
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+    font-size: inherit; 
+    padding: 20; 
 }
 
 .editButton{
-    text-decoration: none; /* Remove the underline */
-    color: black; /* Set the text color */
-    cursor: pointer; /* Change the cursor to pointer when hovering over the link */
+    text-decoration: none; 
+    color: black; 
+    cursor: pointer; 
     font-size: inherit; 
 }
 
 .company-image {
     width: 40px;
     height: 40px;
-    border-radius: 10px; /* Change this value to adjust the curvature */
+    border-radius: 10px; 
     margin-right: 10px;
 }
 
