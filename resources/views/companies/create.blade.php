@@ -12,7 +12,7 @@
                 <div class="cardheader">
             <h3>{{ isset($company) ? 'Edit' : 'Create' }} Company</h3>
             <button type="submit" class="save-button">{{ isset($company) ? 'Save' : 'Save' }}</button>
-           
+            
         </div>
                 <div class="form-group row">
                     <h6 style="margin-top:50px;">COMPANY INFORMATION</h6>
